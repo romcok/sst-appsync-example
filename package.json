@@ -1,0 +1,27 @@
+{
+  "name": "sst-appsync-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.91.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-appsync": "1.91.0",
+    "@aws-cdk/aws-dynamodb": "1.91.0",
+    "@aws-cdk/aws-lambda": "1.91.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.91.0",
+    "@aws-cdk/aws-s3": "1.91.0",
+    "@aws-cdk/core": "1.91.0",
+    "@serverless-stack/cli": "0.9.16",
+    "@serverless-stack/resources": "0.9.16",
+    "lodash": "^4.17.21",
+    "ulid": "^2.3.0"
+  }
+}

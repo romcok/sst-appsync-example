@@ -1,0 +1,5 @@
+{
+  "name": "sst-appsync-example",
+  "stage": "dev",
+  "region": "eu-west-1"
+}
